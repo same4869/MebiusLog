@@ -1,6 +1,3 @@
-# MebiusLog
-Mebius的submodule--MebiusLog
-
 ### MEBIUSLOG 技术&使用文档
 
 #### 概述
