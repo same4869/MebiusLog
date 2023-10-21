@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/same4869/MebiusLog.svg)](https://jitpack.io/#same4869/MebiusLog)
+
 # MebiusLog
 Mebius的submodule--MebiusLog
 
