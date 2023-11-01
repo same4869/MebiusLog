@@ -7,6 +7,7 @@ import com.pokemon.mebius.commlib.utils.onClick
 import com.pokemon.mebius.log.MLog
 import com.pokemon.mebius.log.MLogConfig
 import com.pokemon.mebius.log.MLogManager
+import com.pokemon.mebius.log.demo.R
 import com.pokemon.mebius.log.printer.MViewPrinter
 
 class MainActivity : AppCompatActivity() {

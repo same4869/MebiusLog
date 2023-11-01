@@ -1,16 +1,18 @@
+import com.pokemon.mebius.framework.buildsrc.*
+
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
 }
 
 android {
-    namespace 'com.pokemon.hikari.mebius.log'
-    compileSdk 33
+    namespace 'com.pokemon.mebius.log.demo'
+    compileSdk Versions.compileSdkVersion
 
     defaultConfig {
-        applicationId "com.pokemon.hikari.mebius.log"
-        minSdk 24
-        targetSdk 33
+        applicationId "com.pokemon.mebius.log.demo"
+        minSdk Versions.minSdkVersion
+        targetSdk Versions.targetSdkVersion
         versionCode 1
         versionName "1.0"
     }
@@ -22,11 +24,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
     kotlinOptions {
-        jvmTarget = '17'
+        jvmTarget = '1.8'
     }
     buildFeatures {
         viewBinding true
